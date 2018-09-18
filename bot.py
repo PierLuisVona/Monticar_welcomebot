@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
         for upd in updates:
             if ('new_chat_member' in upd["message"].keys()):
-                send_message(upd['message']['chat']['id'],"benvenutissimo!!")
+                send_message(upd['message']['chat']['id'],"buongiornissimo!!")
 
 
         print(updates)
