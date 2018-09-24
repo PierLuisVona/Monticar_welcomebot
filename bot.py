@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
         for upd in updates:
             if ('new_chat_member' in upd["message"].keys()):
-                send_message(upd['message']['chat']['id'],"Ciao "+upd['message']['new_chat_member']['first_name']+"! In questa chat potrei offrire e chiedere un passaggio diretto a scuola, mi raccomando PROPOSITIVITÁ ed EDUCAZIONE! buon viaggio :)")
+                send_message(upd['message']['chat']['id'],"Ciao "+upd['message']['new_chat_member']['first_name']+"! In questa chat potrai offrire e chiedere un passaggio diretto a scuola, mi raccomando: PROPOSITIVITÁ ed EDUCAZIONE! buon viaggio :smile:")
 
 
         print(updates)
